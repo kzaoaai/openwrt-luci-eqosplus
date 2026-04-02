@@ -21,4 +21,4 @@ This repository provides an automated installer that downloads the LuCI GUI and 
 Run this single command via SSH on your OpenWrt router. The script dynamically detects your package manager (`apk` or `opkg`), fetches the required files, and performs the engine transplant.
 
 ```bash
-wget -qO- [https://raw.githubusercontent.com/kzaoaai/openwrt-luci-eqosplus/main/install.sh](https://raw.githubusercontent.com/kzaoaai/openwrt-luci-eqosplus/main/install.sh) | sh
+wget -qO- https://raw.githubusercontent.com/kzaoaai/openwrt-luci-eqosplus/main/install.sh | sh
