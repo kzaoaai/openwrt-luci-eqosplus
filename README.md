@@ -1,6 +1,6 @@
 # OpenWrt LuCI eqosplus (Native fw4 Patch)
 
-A patched, self-installing `nftables` (fw4) engine for the `eqosplus` OpenWrt LuCI app. Built specifically for OpenWrt 25.12 and newer.
+A patched, self-installing `nftables` (fw4) engine for the `eqosplus` OpenWrt LuCI app. Tested on OpenWrt 25.12 and newer.
 
 ## The Problem
 The original `luci-app-eqosplus` package relies on outdated `tc`/`htb` queueing that breaks under modern OpenWrt `fw4`. Specifically, it:
